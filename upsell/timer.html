@@ -1,0 +1,55 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- saved from url=(0049)http://www.masterpokupok.ru/tis/upsell/timer.html -->
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<meta http-equiv="Cache-Control" content="no-cache">
+<script language="Javascript" type="text/javascript" src="jquery-1.4.1-1.js"></script><style type="text/css"></style>
+<script language="Javascript" type="text/javascript" src="jquery.lwtCountdown-1.0.js"></script>
+<script language="Javascript" type="text/javascript" src="misc.js"></script>
+<link rel="Stylesheet" type="text/css" href="main.css">
+
+<title>Таймер</title>
+</head>
+<body marginwidth="0" marginheight="0">
+<!-- Countdown dashboard start -->
+<center>
+<div id="countdown_dashboard">
+<div class="dash days_dash">
+<span class="dash_title1">Дней</span>
+<div class="digit"><div class="top" style="display: none;">0</div><div class="bottom" style="display: block;">0</div></div>
+<div class="digit"><div class="top" style="display: none;">0</div><div class="bottom" style="display: block;">0</div></div>
+</div>
+<div class="dash hours_dash">
+<span class="dash_title2">Часов</span>
+<div class="digit"><div class="top" style="display: none;">0</div><div class="bottom" style="display: block;">0</div></div>
+<div class="digit"><div class="top" style="display: none;">0</div><div class="bottom" style="display: block;">0</div></div>
+</div>
+<div class="dash minutes_dash">
+<span class="dash_title">Минут</span>
+<div class="digit"><div class="top" style="display: none;">1</div><div class="bottom" style="display: block;">1</div></div>
+<div class="digit"><div class="top" style="display: none;">9</div><div class="bottom" style="display: block;">9</div></div>
+</div>
+<div class="dash seconds_dash">
+<span class="dash_title">Секунд</span>
+<div class="digit"><div class="top" style="display: none;">3</div><div class="bottom" style="display: block;">3</div></div>
+<div class="digit"><div class="top" style="display: none;">3</div><div class="bottom" style="display: block;">3</div></div>
+</div>
+</div>
+</center>
+<!-- Countdown dashboard end -->
+<script language="javascript" type="text/javascript">
+jQuery(document).ready(function() {
+	$('#countdown_dashboard').countDown({
+		targetOffset: {
+			'day': 		0,
+			'month': 	0,
+			'year': 	0,
+			'hour': 	0,
+			'min': 		20,
+			'sec': 		00
+		}
+	});
+});
+</script>
+
+</body></html>
